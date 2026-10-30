@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and OAuth credentials
+credentials.json
+token.json
+.env
+.env.*
+!.env.example
+
+# Personal runtime data
+leads.json
+memory.json
+agent_state.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

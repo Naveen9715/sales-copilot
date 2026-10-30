@@ -1,0 +1,30 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# API keys and credentials
+.env
+.env.*
+credentials.json
+token*.json*
+*.bak
+client_secret*.json
+
+# Private application data
+leads.json
+conversation.json
+state.json
+agent_state.json
+memory.json
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
